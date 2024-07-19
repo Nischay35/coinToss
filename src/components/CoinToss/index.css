@@ -1,0 +1,55 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 6px;
+  background-color: #ffffff;
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+}
+.toss-image {
+  height: 40px;
+  width: 50px;
+  margin: 5px;
+}
+.button {
+  color: #a35200;
+  font-family: 'Roboto';
+  background-color: #f9d423;
+  border-width: 0px;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 5px;
+  outline: none;
+  cursor: hover;
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.statistics{
+  color:#475569;
+  font-family: "Roboto";
+}
+
